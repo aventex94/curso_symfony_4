@@ -1,0 +1,10 @@
+{%  extends 'base.html.twig' %}
+{% block body %}
+    <form action="login_curso" method="post">
+        <label>email</label>
+        <input type="text" id="email" name="email">
+        <label>password</label>
+        <input type="password" id="password" name="password">
+        <input type="submit" value="Ingresar">
+    </form>
+{% endblock %}
